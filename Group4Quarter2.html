@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<title>GROUP 4-Nature Keepers</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+<body class="w3-blue">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-pale-green w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-blue">
+    <h1 class="w3-xxxlarge"><b>SECOND QUARTER</b></h1>
+    <h6>Environmental Literacy <span class="w3-tag">People throwing trash in improper places</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="https://data.whicdn.com/images/288094901/original.gif" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">GROUP 4-Nature Keepers</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>Animal Poison</b></h1>
+      <h6><button class="w3-button w3-blue w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-pale-green w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>SOLUTION SUMMARY</h3>
+          <h5>Raising awareness through an animation about reasons why land and sea creatures die. <span class="w3-opacity">November 21, 2019.</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://media2.giphy.com/media/5zw6BxBDGXF3mJ2krE/giphy.gif" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong>How to make the world miserable. </strong> <p> Our Animation is dedicated to people throwing trash in improper places. The title of our animation is "How to make the world miserable" because instead of saying the actual meaning and its effects we made an animation that is inversely related to its actual meaning so they (our participants) can see the effects of throwing trash in improper places by just watching our animation.</p>
+
+
+          <p class="w3-left"><button class="w3-button w3-blue w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-blue" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKrCBrdkopMZg9Lf2yJD13NBcPiF9oxce1pwSDeaPltG_2ybWI" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>JC Jancorda<span class="w3-opacity w3-medium"> November 15,2019, 3:49 PM</span></h4>
+                <p> The fact that it is unique with it being inverse in explaing the content. I like the Idea!</p>
+              </div>
+               <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPkVK8PZSdB8Uvm_rMlH0to5tA09ahp9f7LA1unL_BtY068kuD" style="width:90px;length:120px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Arvin Clein Valencia <span class="w3-opacity w3-medium">November 14,2019, 4:08 PM</span></h4>
+                <p>I like the solution because it really shows the effects when we litter. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-pale-green w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>BACKGROUND OF THE STUDY</h3>
+          <h5>Raising awareness through an animation that is inversely related to its actual meaning. <span class="w3-opacity">November 21, 2019</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://media0.giphy.com/media/xW2WnU1PbdNl59va6m/giphy.gif" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+          <p><strong>Reasons why land and sea creatures are dying. </strong>
+          <p>Article 1: "Many animals are dying, scientists believe earth has enetered a sixth mass-extinction." According to Cassie Werber(2015), the decreasing number of land creatures are due to cutting down forests, building cities and using up natural resources can put animals in danger and can even drive them out or their existence.</p> <p> Article 2: "How a seal pup died with a plastic wrapper in its stomach." According to Bronlow(2015), it shows how a seal pup died due to plastics. He said that its that the plastic piece damaged the tissue of the stomach and allowed bacteria from the gut to flow into the bloodstream. The pup would have died early anyway, but the plastic piece could have sped up the process. </p>
+          
+          <p> Article 3: "Plastic pollution affects sea life throughout the ocean." According to the united nation(2018), at least 800 species worldwide are affected by marine debris and as much as 80% of that litter is plastic such as wrappers and plastic cups that injested in their stomach causing suffocation, starvation, and drowning. </p>
+             
+          <p class="w3-left"><button class="w3-button w3-blue w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-blue" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSA05KToLqKwjFjb-INH8rDmC1Hz33lFMkrUdljbMuYp2v3axEs" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Graciel Tribunal<span class="w3-opacity w3-medium">November 28,2019, 04:07 PM</span></h4>
+                <p>I like the article choice because, its very related to the actual problem.</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="https://res.cloudinary.com/teepublic/image/private/s--kY-wVLGB--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1545399463/production/designs/3794712_0.jpg" style="width:90px;length:120px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Alnajie Paluhod <span class="w3-opacity w3-medium">November 30,2019, 4:08 PM</span></h4>
+                <p>The article choice are very great! they are very related to the problem statement and risks behavior. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-pale-green w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Solution</h3>
+          <h5>Our solution shows the effects of our risk behavior through the animation that has an inversely related meaning. <span class="w3-opacity">November 21, 2019 </span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://media2.giphy.com/media/l2Jeg2UYi9opZqxJS/giphy.gif" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>FEATURES</strong><p>
+          <p>Our animation lasts for 1:24 minutes and it shows how the environment gets affected badly by the plastic waste that aren't thrown in proper places.</p>
+          <p><strong>BENEFITS of the Solution</strong>
+          <p>1. To help people know the bad effects of littering.</p>
+          <p>2. To make people realize that if we keep on throwing trashes in improper places the world will become more miserable.</p>
+          <p class="w3-left"><button class="w3-button w3-blue w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-blue" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">2</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRjR9-Mp_4VeaVM-u3_y9nb-jUFKIv6b1DCqoesPGEwt6mvIJ3lA&s" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Danise Lim. <span class="w3-opacity w3-medium">December 4, 2019, 7:22 PM</span></h4>
+                <p>I like how you share your ideas you are very creative.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXsDgRgT_eEqt1dHB65Col6zt0d8-3WxTQQSgWLW9jO6MdgLbopA&s" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Ashiville Gonzaga <span class="w3-opacity w3-medium">December 8, 2019, 10:32 PM</span></h4>
+                <p>your solution's benefits and features are great.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-pale-green w3-margin">
+        <img src="https://thumbs.gfycat.com/UnsightlySimilarBilby-small.gif" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-pale-green">
+          <h4>How to make the world miserable.</h4>
+          <p>"How to make the world miserable" is an inversely related animation that shows what some people do about their trash and how it effects our environment.</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-pale-green w3-margin">
+        <div class="w3-container w3-padding w3-pale-green">
+          <h4>Usability Test</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-pale-green">
+          <li class="w3-padding-16">
+            <img src="https://cdn.dribbble.com/users/249572/screenshots/2408458/mario-blocks-02.gif" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Do you have an idea why land and sea creatures are dying? Explain.</span>
+            <br>
+            <span>-</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://cdn.dribbble.com/users/249572/screenshots/2408458/mario-blocks-02.gif" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">How often do you practice littering?</span>
+            <br>
+            <span>A. I don't litter</span>
+            <span>B. Sometimes</span>
+            <span>C. Always </span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://cdn.dribbble.com/users/249572/screenshots/2408458/mario-blocks-02.gif" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">What are some possible solutions about littering that you can think of? Explain. </span>
+            <br>
+            <span>-</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://cdn.dribbble.com/users/249572/screenshots/2408458/mario-blocks-02.gif" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Do you think our solutions will be helpful for the environment? why or why not?</span>
+            <br>
+            <span>-</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://cdn.dribbble.com/users/249572/screenshots/2408458/mario-blocks-02.gif" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">What do you think of our animation and its logic about being inverse?</span>
+            <br>
+            <span>-</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://cdn.dribbble.com/users/249572/screenshots/2408458/mario-blocks-02.gif" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Do you think this animation will help people understand what is going on with our trash in the environment?</span>
+            <br>
+            <span>-</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://cdn.dribbble.com/users/249572/screenshots/2408458/mario-blocks-02.gif" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">What do you think is the overall appearance of our animation?</span>
+            <br>
+            <span>-</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://cdn.dribbble.com/users/249572/screenshots/2408458/mario-blocks-02.gif" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Would you recommend our animation for others to watch? why or why not?</span>
+            <br>
+            <span>-</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://cdn.dribbble.com/users/249572/screenshots/2408458/mario-blocks-02.gif" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Rate your Experience about our animation.</span>
+            <br>
+            <span>1. I am confused about the animation.</span>
+            
+            <span>2. I did not understand the animation.</span>
+            
+            <span>3. I somehow understand the animation.</span>
+            
+            <span>4. I understand the animation</span>
+          
+            <span>5. I fully understand the animation.</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://cdn.dribbble.com/users/249572/screenshots/2408458/mario-blocks-02.gif" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Are you surprised about the outcome of our Animation? why or why not?</span>
+            <br>
+            <span>-</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-pale-green w3-margin">
+        <div class="w3-container w3-padding w3-pale-green">
+          <h4>Usability Test Results</h4>
+        </div>
+        <div class="w3-container w3-pale-green">
+          <div class="w3-container w3-display-container w3-pale-green w3-section" style="height:550px">
+            <span class="w3-display">Pre-testing. All of them says that they have an idea why land and sea creatures are dying and all of them says its because of the pollution due to throwing trash everywhere and they are aware that it can affect the environment as well. The possible solution that most of them thought is to stop throwing trash everywhere so that it can  lessen the plastics in the environment.<p> Testing. All of our participants said that our animation is helpful for the environment and it is unique due to the concept.On the other hand, one of our participants said that some people will not fully understand our animation due to lack of knowledge about invesely related topic but they still said that the overall concept of our solution is great.</p> <p>Post-testing. All of the would apply what they had learned from the animation about of being inversely related. 3 out of 4 of them said that they would recommend it to someone to make people realize the bad effects of them throwing trash in improper places while 1 out of 4 of them would only recommend it to some people because of it being inversely related. All of them likes their experience of watching our animation due to it being inversely related. </p></span>
+            
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-pale-gree w3-margin">
+        <div class="w3-container w3-padding w3-pale-green">
+          <h4>PROTOTYPE</h4>
+        </div>
+        <div class="w3-row-padding w3-pale-green">
+          <div class="w3-col s6">
+<video width="430" height="400" controls>
+  <source src="Group 4 animation 2.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-pale-green w3-margin">
+        <div class="w3-container w3-padding w3-pale-green">
+          <h4>Follow Us</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-blue w3-margin">
+        <div class="w3-container w3-padding w3-pale-green">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-pale-green">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-blue">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-pale-green">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-blue w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-pale-green" style="padding:32px">
+  <a href="#" class="w3-button w3-blue w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Made by <a href="file:///home/chronos/u-b9f325d9872342c0d67ec02f18850120c1c38c69/MyFiles/QA1_Group4.html" target="_blank">Group 4-Nature Keepers</a></p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
